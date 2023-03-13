@@ -1,0 +1,90 @@
+body {
+  background: #cab9ca;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+#game-over-message {
+  font-size: 65px;
+  font-weight: 900;
+}
+
+.castomCardList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  padding: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  border-radius: 20px;
+  background-color: rgb(71, 37, 78);
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.castomCard:nth-child(4n) {
+  margin-right: 0;
+}
+
+.castomCard {
+  font-size: 60px;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  height: 100px;
+  width: 80px;
+  border-radius: 10px;
+  color: transparent;
+  background-color: rgb(164 112 191);
+}
+
+.castomCard.success {
+  color: rgb(169 88 255 / 98%);
+  background-color: rgb(0 0 0);
+  border-radius: 35px;
+}
+
+.castomCard.open {
+  color: blueviolet;
+  background-color: bisque;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  font-size: 28px;
+  height: 55px;
+  width: 245px;
+  background: #cab9ca;
+  border: 3px solid rgb(114 39 123 / 31%);
+  color: rgb(149 50 159);
+  border-radius: 17px;
+  outline: none;
+}
+
+.btn {
+  background-color: transparent;
+  height: 100%;
+  border: 5px solid black;
+  border-radius: 50px;
+  margin-left: 14px;
+  font-weight: 300;
+}
+
+.btn:hover {
+  background-color: rgba(77, 41, 78, 0.685);
+  border: 2px solid rgb(74, 12, 12);
+  font-weight: 700;
+}
